@@ -1,7 +1,8 @@
 <template xmlns:v-bind="">
   <v-form v-model="valid" ref="form" lazy-validation>
     <h2>請輸入帳號以及密碼登入</h2>
-    <p>登入展示的帳號: supplier<br />密碼: 1234</p>
+    <p>採購展示帳號: demo<br/>密碼: 1234</p>
+    <p>供應商展示帳號: supplier<br/>密碼: 1234</p>
     <p>登入後請先點選"展示說明"選單</p>
     <v-text-field
       name="account"
